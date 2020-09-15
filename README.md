@@ -45,10 +45,6 @@
            public static final int *;
         }
         
-        # yourpackage : 项目的packageName/applicationId
-        -keep public class yourpackage.R$*{
-           public static final int *;
-        }
         -keepclassmembers class * {
            public <init>(org.json.JSONObject);
         }
